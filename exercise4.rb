@@ -28,19 +28,42 @@
 
 # Save your name as a string into a variable, then ask the user to enter their name. If the two names match, print "We have the same name!".
 
-puts "Enter your first name."
-username = gets.chomp
-myname = "Graham"
-
-if username == myname
-  puts "Hey, we have the same name!"
-else
-  puts "Cool name!"
-end
+# puts "Enter your first name."
+# username = gets.chomp
+# myname = "Graham"
+#
+# if username == myname
+#   puts "Hey, we have the same name!"
+# else
+#   puts "Cool name!"
+# end
 
 
 # Ask the user to enter their name. If their name is longer than 10 letters, print "hi, " and then their name. If their name is less than 10 letters, print "hello, " and then their name. If their name is exactly 10 letters, print "hey, " and then their name.
 
-
+# puts "Enter your first name."
+# username = gets.chomp
+#
+# if username.length > 10
+#   puts "Hi #{username}!"
+# elsif username.length < 10
+#   puts "Hello #{username}!"
+# else
+#   puts "Hey #{username}!"
+# end
 
 # Pick a number and save it in a variable called secret_number. Ask the user to enter a number. If they enter the secret number, print "You win!". If they are off by 1, print "So close!". Otherwise, print "Try again".
+
+# puts "Pick a number between 1 and 10."
+# guess = gets.chomp.to_i
+# secret_number = 5
+#
+# if guess == secret_number
+#   puts "You guessed right!"
+# elsif guess == (secret_number + 1)
+#   puts "So close!"
+# elsif guess == (secret_number - 1)
+#   puts "So close!"
+# else
+#   puts "Wrong number!"
+# end
