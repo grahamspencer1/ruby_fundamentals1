@@ -1,12 +1,10 @@
 # How would you calculate a good tip for a 55 dollar meal? Use puts to print the answer.
 #
-# puts "Want to leave a good tip? How much did your meal cost?"
-#
-# total = gets.chomp.to_i
-# tip = 0.20
-#
-# puts "You should pay $#{total * tip}."
-#
+puts "Want to leave a good tip? How much did your meal cost?"
+
+total = gets.chomp.to_i
+
+puts "You should pay $#{total * 0.20}."
 #
 # # Try adding a string and an integer with the + operator. What happens? Find a way to convert the integer into a string first and use puts to print the result.
 #
